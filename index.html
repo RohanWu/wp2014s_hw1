@@ -1,134 +1,243 @@
 <!DOCTYPE html>
-
-<html>
-
-	<head>
-        	<meta charset="utf-8">
-        	<meta name="description" content="The website is for NCCUCS web programming">
-        	<meta name="author" content="RohanWu">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <meta name="description" content="">
+                        <meta name="author" content="">
+                            <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+                                
+                                <title>Dashboard Template for Bootstrap</title>
+                                
+                                <!-- Bootstrap core CSS -->
+                                <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+                                    
+                                    <!-- Custom styles for this template -->
+                                    <link href="dashboard.css" rel="stylesheet">
+                                        
+                                        <!-- Just for debugging purposes. Don't actually copy this line! -->
+                                        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+                                        
+                                        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+                                        <!--[if lt IE 9]>
+                                         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                                         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+                                         <![endif]-->
+                                        </head>
+    
+    <body>
         
-        	<title>HTML5 Revision (NCCUCS)</title>
-		<link href="wp2014s_hw1.css" rel="stylesheet">
-        	<link href="bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
-    	</head>
-
-	<body>
-        
-       		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            		<div class="container-fluid">
-                		<div class="navbar-header">
-                    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        			<span class="sr-only">Toggle navigation</span>
-                        			<span class="icon-bar"></span>
-                        			<span class="icon-bar"></span>
-                        			<span class="icon-bar"></span>
-                			</button>
-                    			<a class="navbar-brand" href="https://www.lttc.ntu.edu.tw/index.aspx">LTTC</a>
-                		</div>
-                		<div class="navbar-collapse collapse">
-                    			<ul class="nav navbar-nav navbar-right">
-                        			<li><a href="https://www.lttc.ntu.edu.tw/lttc_news_all.aspx">最新消息</a></li>
-                        			<li><a href="https://www.lttc-li.org.tw/">課程</a></li>
-                        			<li><a href="https://eshop.lttc.org.tw/">e購網</a></li>
-                    			</ul>
-                    			<form class="navbar-form navbar-right">
-                        			<input type="text" class="form-control" placeholder="全文檢索">
-                    			</form>
-                		</div>
-            		</div>
-        	</nav>
-
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container-fluid">
-                <div class="row">
-                    <aside class="col-sm-3 col-md-2 sidebar">
-                        <ul class="nav nav-sidebar">
-                            <li><a href="https://www.lttc.ntu.edu.tw/gre_news.aspx">最新消息</a></li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/GRE.htm">測驗簡介</a></li>
-                            <li class="active"><a href="https://www.lttc.ntu.edu.tw/gre_content.htm">測驗題型</a></li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/gre_dates.htm">測驗場次</a></li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/gre_location.htm">考場資訊</a></li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/gre_registration.htm">報名須知</a></li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/gre_refund.htm">改期/取消</a></li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/gre_pre_test.htm">應試須知</a></li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/gre_score_report.htm">成績報告</a></li>
-                            <li><a href="#">常見問答</a>
-                                <ul>
-                                    <li><a href="https://www.lttc.ntu.edu.tw/gre_QA.htm">報名</a></li>
-                                    <li><a href="https://www.lttc.ntu.edu.tw/gre_QA_1.htm">改期/取消</a></li>
-                                    <li><a href="https://www.lttc.ntu.edu.tw/gre_QA_2.htm">信用卡/扣款問題</a></li>
-                                    <li><a href="https://www.lttc.ntu.edu.tw/gre_QA_3.htm">試場</a></li>
-                                    <li><a href="https://www.lttc.ntu.edu.tw/gre_QA_4.htm">證件</a></li>
-                                    <li><a href="https://www.lttc.ntu.edu.tw/gre_QA_5.htm">測驗當日</a></li>
-                                    <li><a href="https://www.lttc.ntu.edu.tw/gre_QA_6.htm">成績</a></li>
-                                    <li><a href="https://www.lttc.ntu.edu.tw/gre_QA_7.htm">其他</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/gre_pub.htm">相關網站</a></li>
-                            <li><a href="https://www.lttc.ntu.edu.tw/contactus.htm">聯絡我們</a></li>
-                        </ul>
-                    </aside>
-                
-                    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-                        <header class="row placeholders">
-                            <div class="col-xs-6 col-sm-3 placeholder">
-                                <img src="page_blue_01.jpg" alt="LTTC photo">
-                            </div>
-                        </header>
-                        
-                        <section>
-                            <p>首頁 - 測驗 - GRE®測驗(The GRE® revised General Test) - 測驗題型</p>
-                            <hr />
-                        </section>
-
-                        <article>
-                            <h2>測驗題型</h2>
-            				<p>測驗共分6個Section，全程約需4.5小時，測驗程序如下：（除寫作外，語文及計量出現的次序不固定）</p>
-            				<ol>
-            					<li>兩篇寫作（各30分鐘作答）</li>
-                                <li>語文 (Verbal Reasoning)一個部分（30分鐘作答）</li>
-                				<li>計量 (Quantitative Reasoning)一個部分（35分鐘作答）</li>
-                				<li>------- 10分鐘的休息時間（非強制性 ）-------</li>
-                				<li>語文 (Verbal Reasoning)一個部分（30分鐘作答）</li>
-                				<li>計量 (Quantitative Reasoning)一個部分（35分鐘作答）</li>
-                				<li>再一個Verbal 或 Quantitative（30 或 35分鐘作答）</li>
-            				</ol>
-            				<h3>各項測驗說明如下：</h3>
-            				<ol>
-                                <li>分析寫作(Analytical Writing)有兩篇，只能使用電腦打字。
-                                    <ul>
-                                        <li>一篇Analyze an Issue，30分鐘作答，</li>
-                                        <li>一篇Analyze an Argument，30分鐘作答。</li>
-                                    </ul>
-                				</li>
-                				<li>語文 (Verbal Reasoning)-- 包含兩個部分，每部分 20題，30分鐘作答。</li>
-                				<li>
-                                    計量 (Quantitative Reasoning)-- 包含兩個部分，每部分 20題，35分鐘作答。<br />
-                                    考計量時，螢幕上有計算機可使用
-                				</li>
-            				</ol>
-            				<p>
-                                三項測驗皆可使用擬稿紙與筆，但需在計時當中（即看到題目時），才可使用紙筆擬稿或計算。<br />
-                                另可能有不計分之Unidentified Section (Verbal或Quantitative)，亦需作答。
-            				</p>
-                        </article>
-
-                        <footer>
-                            <hr />
-                            <p>
-                                地址：10663 台北市辛亥路2段170號 (臺灣大學校總區內)<br />
-                                郵政信箱：台北郵政第 23-41 號信箱<br />
-                                電話：(02)2362-6385 傳真：(02)2367-1944<br />
-                                辦公時間：週一至週五上午8~12點、下午1~5點<br />
-                            </p>
-                        </footer>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Project name</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <input type="text" class="form-control" placeholder="Search...">
+                            </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar">
+                    <ul class="nav nav-sidebar">
+                        <li class="active"><a href="#">Overview</a></li>
+                        <li><a href="#">Reports</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Export</a></li>
+                    </ul>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="">Nav item</a></li>
+                        <li><a href="">Nav item again</a></li>
+                        <li><a href="">One more nav</a></li>
+                        <li><a href="">Another nav item</a></li>
+                        <li><a href="">More navigation</a></li>
+                    </ul>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="">Nav item again</a></li>
+                        <li><a href="">One more nav</a></li>
+                        <li><a href="">Another nav item</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                    <h1 class="page-header">Dashboard</h1>
+                    
+                    <div class="row placeholders">
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
+                                <h4>Label</h4>
+                                <span class="text-muted">Something else</span>
+                                </div>
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
+                                <h4>Label</h4>
+                                <span class="text-muted">Something else</span>
+                                </div>
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
+                                <h4>Label</h4>
+                                <span class="text-muted">Something else</span>
+                                </div>
+                        <div class="col-xs-6 col-sm-3 placeholder">
+                            <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
+                                <h4>Label</h4>
+                                <span class="text-muted">Something else</span>
+                                </div>
+                    </div>
+                    
+                    <h2 class="sub-header">Section title</h2>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Header</th>
+                                    <th>Header</th>
+                                    <th>Header</th>
+                                    <th>Header</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1,001</td>
+                                    <td>Lorem</td>
+                                    <td>ipsum</td>
+                                    <td>dolor</td>
+                                    <td>sit</td>
+                                </tr>
+                                <tr>
+                                    <td>1,002</td>
+                                    <td>amet</td>
+                                    <td>consectetur</td>
+                                    <td>adipiscing</td>
+                                    <td>elit</td>
+                                </tr>
+                                <tr>
+                                    <td>1,003</td>
+                                    <td>Integer</td>
+                                    <td>nec</td>
+                                    <td>odio</td>
+                                    <td>Praesent</td>
+                                </tr>
+                                <tr>
+                                    <td>1,003</td>
+                                    <td>libero</td>
+                                    <td>Sed</td>
+                                    <td>cursus</td>
+                                    <td>ante</td>
+                                </tr>
+                                <tr>
+                                    <td>1,004</td>
+                                    <td>dapibus</td>
+                                    <td>diam</td>
+                                    <td>Sed</td>
+                                    <td>nisi</td>
+                                </tr>
+                                <tr>
+                                    <td>1,005</td>
+                                    <td>Nulla</td>
+                                    <td>quis</td>
+                                    <td>sem</td>
+                                    <td>at</td>
+                                </tr>
+                                <tr>
+                                    <td>1,006</td>
+                                    <td>nibh</td>
+                                    <td>elementum</td>
+                                    <td>imperdiet</td>
+                                    <td>Duis</td>
+                                </tr>
+                                <tr>
+                                    <td>1,007</td>
+                                    <td>sagittis</td>
+                                    <td>ipsum</td>
+                                    <td>Praesent</td>
+                                    <td>mauris</td>
+                                </tr>
+                                <tr>
+                                    <td>1,008</td>
+                                    <td>Fusce</td>
+                                    <td>nec</td>
+                                    <td>tellus</td>
+                                    <td>sed</td>
+                                </tr>
+                                <tr>
+                                    <td>1,009</td>
+                                    <td>augue</td>
+                                    <td>semper</td>
+                                    <td>porta</td>
+                                    <td>Mauris</td>
+                                </tr>
+                                <tr>
+                                    <td>1,010</td>
+                                    <td>massa</td>
+                                    <td>Vestibulum</td>
+                                    <td>lacinia</td>
+                                    <td>arcu</td>
+                                </tr>
+                                <tr>
+                                    <td>1,011</td>
+                                    <td>eget</td>
+                                    <td>nulla</td>
+                                    <td>Class</td>
+                                    <td>aptent</td>
+                                </tr>
+                                <tr>
+                                    <td>1,012</td>
+                                    <td>taciti</td>
+                                    <td>sociosqu</td>
+                                    <td>ad</td>
+                                    <td>litora</td>
+                                </tr>
+                                <tr>
+                                    <td>1,013</td>
+                                    <td>torquent</td>
+                                    <td>per</td>
+                                    <td>conubia</td>
+                                    <td>nostra</td>
+                                </tr>
+                                <tr>
+                                    <td>1,014</td>
+                                    <td>per</td>
+                                    <td>inceptos</td>
+                                    <td>himenaeos</td>
+                                    <td>Curabitur</td>
+                                </tr>
+                                <tr>
+                                    <td>1,015</td>
+                                    <td>sodales</td>
+                                    <td>ligula</td>
+                                    <td>in</td>
+                                    <td>libero</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
-
-        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        	<script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
-        	<script src="bootstrap-3.1.1-dist/js/docs.min.js"></script>
-
-	</body>
-
+        </div>
+        
+        <!-- Bootstrap core JavaScript
+         ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="../../dist/js/bootstrap.min.js"></script>
+        <script src="../../assets/js/docs.min.js"></script>
+    </body>
 </html>
