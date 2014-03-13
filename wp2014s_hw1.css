@@ -65,16 +65,17 @@ section ul {
 }
 section .flat {
     float: left;
+    padding-right: 10px;
 }
 section a {
     font-family: Times New Roman, Cambria, Helvetica;
-    color: #003D79;
+    color: #005AB5;
     text-decoration: none;
 }
 section a:hover {
     text-decoration: underline;
 }
 section p {
-    color: #003D79;
+    color: #005AB5;
 }
 
