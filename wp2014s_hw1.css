@@ -69,13 +69,28 @@ section .flat {
 }
 section a {
     font-family: Times New Roman, Cambria, Helvetica;
-    color: #0072E3;
+    font-weight: bold;
+    color: #4682b4;
     text-decoration: none;
 }
 section a:hover {
     text-decoration: underline;
 }
 section p {
-    color: #0072E3;
+    font-weight: bold;
+    color: #4682b4;
+}
+
+
+article h2 {
+    font-weight: bolder;
+    color: #a52a2a;
+}
+article h3 {
+    font-weight: bolder;
+    color: #b8860b;
+}
+article .emphasis {
+    color: #dc143c;
 }
 
