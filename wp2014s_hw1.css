@@ -65,26 +65,23 @@ hr {
 }
 
 
-.section-style {
-
-}
-.section-style ul{
+section ul {
     list-style: none;
 }
-.section-style li {
+section .flat {
     float: left;
 	padding-right: 10px;	
 	padding-left: 10px;
 }
-.section-style a {
+section a {
     font-family: Times New Roman, Cambria, Helvetica;
     color: rgb(0,150,255);
     text-decoration: none;
 }
-.section-style a:hover {
+section a:hover {
     text-decoration: underline;
 }
-.section-style p {
+section p {
     color: rgb(0,150,255);
 }
 
