@@ -66,12 +66,15 @@ hr {
 
 
 .section-style {
-    float: left;
-	padding-right: 10px;	
-	padding-left: 10px;
+
 }
 .section-style ul{
     list-style: none;
+}
+.section-style li {
+    float: left;
+	padding-right: 10px;	
+	padding-left: 10px;
 }
 .section-style a {
     font-family: Times New Roman, Cambria, Helvetica;
