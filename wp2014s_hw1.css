@@ -69,13 +69,13 @@ section .flat {
 }
 section a {
     font-family: Times New Roman, Cambria, Helvetica;
-    color: #005AB5;
+    color: #0072E3;
     text-decoration: none;
 }
 section a:hover {
     text-decoration: underline;
 }
 section p {
-    color: #005AB5;
+    color: #0072E3;
 }
 
