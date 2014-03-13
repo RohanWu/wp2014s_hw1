@@ -90,8 +90,7 @@ article h3 {
     font-weight: bolder;
     color: #d2691e;
 }
-article .emphasis {
-    display: inline;
+article span {
     color: #dc143c;
 }
 
