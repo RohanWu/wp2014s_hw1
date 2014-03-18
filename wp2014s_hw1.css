@@ -77,28 +77,23 @@ section a:hover {
     text-decoration: underline;
 }
 section p {
-    font-family: Times New Roman, Cambria, Helvetica;
     font-weight: bold;
     color: #4682b4;
 }
 
 
-article {
-    font-family: Cambria, Helvetica, Times New Roman;
-}
 article h2 {
     font-family: Hoefler Text, Times New Roman, Cambria;
     font-style: italic;
     font-weight: bolder;
     color: #a52a2a;
 }
-article h3 {
+article h4 {
     font-family: Cambria, Helvetica, Times New Roman;
     font-weight: bolder;
     color: #d2691e;
 }
 article span {
-    font-style: italic;
     color: #dc143c;
 }
 
