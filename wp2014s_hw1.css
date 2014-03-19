@@ -100,15 +100,18 @@ article span {
 
 footer {
     width: 1050px;
-    background: #87cefa;
+    background: #add8e6;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
 }
-footer text-left {
+footer .text-left {
 
 }
+footer img {
+    float: left;
+}
 footer p {
-    color: #191970;
+    color: #4169e1;
 }
 
