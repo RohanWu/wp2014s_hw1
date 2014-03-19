@@ -65,7 +65,6 @@ section ul {
 }
 section .flat {
     float: left;
-    padding-right: 10px;
 }
 section a {
     font-family: Times New Roman, Cambria, Helvetica;
@@ -95,7 +94,7 @@ article span {
 
 
 footer {
-    width: 1050px;
+    width: 1150px;
     background: #CCEEFF;
     padding-top: 10px;
     padding-left: 20px;
