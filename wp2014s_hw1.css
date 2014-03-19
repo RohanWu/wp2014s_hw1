@@ -76,10 +76,6 @@ section a {
 section a:hover {
     text-decoration: underline;
 }
-section p {
-    font-weight: bold;
-    color: #4682b4;
-}
 
 
 article h2 {
