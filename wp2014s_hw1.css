@@ -103,8 +103,8 @@ footer {
     background: #87cefa;
 }
 footer text-left {
-    margin-top: 5px;
-    margin-left: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 footer p {
     color: #191970;
