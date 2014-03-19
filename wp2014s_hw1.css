@@ -90,10 +90,19 @@ article h2 {
 }
 article h4 {
     font-family: Cambria, Helvetica, Times New Roman;
-    font-weight: bolder;
+    font-weight: bold;
     color: #d2691e;
 }
 article span {
     color: #dc143c;
+}
+
+
+footer {
+    background: #00bfff;
+}
+footer p {
+    color: #4682b4;
+
 }
 
