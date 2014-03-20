@@ -44,6 +44,11 @@ body {
     color: #fff;
     background-color: #428bca;
 }
+nav .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
 
 
 .main {
