@@ -44,6 +44,14 @@ body {
     color: #fff;
     background-color: #428bca;
 }
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
 
 
 .main {
